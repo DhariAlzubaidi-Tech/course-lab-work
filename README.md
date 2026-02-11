@@ -2,17 +2,17 @@
 
 
 
-\## Technologies Covered
+Repository for tracking progress in Advanced Internet Technology - Spring 2026.
 
 
 
-| Technology | Description |
+| Technology | Framework/Tool |
 
-|------------|-------------|
+|------------|----------------|
 
-| Laravel    | Backend web development |
+| Backend    | Laravel        |
 
-| Next.js    | Frontend Framework |
+| Frontend   | Next.js        |
 
-| Flutter    | Mobile application development |
+| Mobile     | Flutter        |
 
