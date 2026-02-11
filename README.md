@@ -1,18 +1,14 @@
-# \# course-lab-work
+# \course-lab-work
 
 
 
-\## Technologies Covered
+\ Repository for tracking progress in Advanced Internet Technology - Spring 2026.
 
 
 
-| Technology | Description |
 
-|------------|-------------|
-
-| Laravel    | Backend web development |
-
-| Next.js    | Frontend Framework |
-
-| Flutter    | Mobile application development |
-
+| Technology | Framework/Tool |
+|------------|----------------|
+| Backend    | Laravel        |
+| Frontend   | Next.js        |
+| Mobile     | Flutter        |
