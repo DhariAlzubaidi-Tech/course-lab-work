@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرتي الذاتية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #1a3a52; --secondary: #2c5aa0; }
+        body { font-family: 'Segoe UI'; color: #333; }
+        .navbar { background-color: var(--primary); }
+        .navbar-brand { font-weight: bold; color: white !important; }
+        .hero { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 80px 20px; text-align: center; min-height: 500px; display: flex; align-items: center; justify-content: center; }
+        .hero h1 { font-size: 3rem; font-weight: bold; margin-bottom: 20px; }
+        .section { padding: 60px 20px; }
+        .section-title { font-size: 2rem; font-weight: bold; color: var(--primary); margin-bottom: 40px; text-align: center; }
+        #about { background-color: #f8f9fa; }
+        .skill-label { font-weight: 600; color: var(--primary); margin-bottom: 8px; }
+        .progress { height: 25px; }
+        .progress-bar { background-color: var(--secondary); font-weight: bold; }
+        .project-card { border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .project-card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
+        .card-header { background-color: var(--primary); color: white; font-weight: bold; }
+        #contact { background-color: #f8f9fa; }
+        .contact-btn { background-color: var(--secondary); border: none; padding: 12px 30px; font-weight: bold; }
+        .contact-btn:hover { background-color: var(--primary); }
+        footer { background-color: var(--primary); color: white; text-align: center; padding: 30px 20px; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } .section-title { font-size: 1.5rem; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">ضاري الزبيدي</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">عني</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">المهارات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">المشاريع</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">اتصل بي</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>السلام عليكم ، أنا ضاري الزبيدي</h1>
+            <p class="fs-5">مطور متحمس لتعلم تقنيات جديدة وبناء مشاريع مفيدة</p>
+            <a href="#contact" class="btn btn-light btn-lg">تواصل معي</a>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">عني</h2>
+            <div class="row"><div class="col-lg-6 mx-auto"><p>طالب كلية التقنية تخصص هندسة البرمجيات وهذا واجب من الواجبات اللي لازم نتقنها       </p></div></div>
+        </div>
+    </section>
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">المهارات</h2>
+            <div class="row"><div class="col-lg-8 mx-auto">
+                <div class="mb-4"><div class="skill-label">HTML</div><div class="progress"><div class="progress-bar" style="width: 85%;">85%</div></div></div>
+                <div class="mb-4"><div class="skill-label">CSS & Bootstrap</div><div class="progress"><div class="progress-bar" style="width: 70%;">70%</div></div></div>
+                <div class="mb-4"><div class="skill-label">JavaScript</div><div class="progress"><div class="progress-bar" style="width: 40%;">40%</div></div></div>
+            </div></div>
+        </div>
+    </section>
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">المشاريع</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6"><div class="card project-card"><div class="card-header">موقع شخصي</div><div class="card-body"><p class="small">موقع شخصي بسيط باستخدام HTML و CSS</p><a href="#" class="btn btn-sm btn-outline-primary">عرض</a></div></div></div>
+                <div class="col-md-6 col-lg-6"><div class="card project-card"><div class="card-header">تطبيق مهام</div><div class="card-body"><p class="small">تطبيق لإدارة المهام باستخدام JavaScript</p><a href="#" class="btn btn-sm btn-outline-primary">عرض</a></div></div></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بي</h2>
+            <div class="row"><div class="col-lg-6 mx-auto text-center">
+                <p> عطني رايك </p>
+                <a href="mailto:legend334490@gmail.com" class="btn btn-primary contact-btn">أرسل بريد إلكتروني</a>
+            </div></div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
